@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile.html</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+        .bg{
+            background-image:url(https://wallpapercave.com/wp/wp1920292.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+   
+        }
+        .profile{
+            width: 100px;
+            height: 100px;
+
+        }
+
+        .card{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+
+          
+            
+        }
+        .user-profile{
+
+            
+            background-color: rgb(118, 100, 136);
+            padding: 20px 100px 20px 100px;
+            justify-items: center;
+            border-radius: 20px 20px 0 0;
+        
+        }
+        .profile{
+            border: solid 5px white;
+            border-radius: 100%;
+        }
+        h1{
+            color: white;
+
+        }
+        h5{
+            color: red;
+        }
+        button{
+            border-radius: 5px;
+            padding: 10px;
+            border: red solid 1px;
+            color: red;
+            background-color: rgb(118, 100, 136);
+            width: 150px;
+        }
+
+        button:hover{
+            color: white;
+            background-color: red;
+            border: white solid 1px;
+
+        }
+        .footer{
+            display: flex;
+            background-color: white;
+            border-radius: 0 0 20px 20px;
+            justify-content:space-evenly;
+            align-items: center;
+            
+        }
+        .fs-20{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .post{
+            margin: 0;
+            padding: 0;
+            justify-items: center;
+        }
+   
+
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="card">
+            <div class="user-profile">
+                <img class="profile" src="https://wallpaperaccess.com/full/1953967.jpg" alt="profileimage">
+                <h1>John doe</h1>
+                <h5>Developer & Designer</h5>
+                <button>Contact Me</button>
+
+            </div>
+            <div>
+
+                <div class="footer">
+                    <div class="post">
+
+                        <p class="fs-20">120</p>
+                        <p>posts</p>
+                       
+                    </div>
+                    <span>|</span>
+                    <div class="post">
+
+                        <p class="fs-20">120</p>
+                        <p>Following</p>
+                       
+                    </div>
+                    <span>|</span>
+                    <div class="post">
+
+                        <p class="fs-20">120</p>
+                        <p>Followers</p>
+                       
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
